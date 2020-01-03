@@ -8,15 +8,13 @@
 First, ensure you have the following installed:
 
 1. [Node.js](http://nodejs.org)
-2. [Bower](http://bower.io): `$ npm install -g bower`
-3. [Grunt](http://gruntjs.com): `$ npm install -g grunt-cli`
-4. [Mongo](http://www.mongodb.org/)
+2. [Mongo](http://www.mongodb.org/)
 
 Then, install dependencies and run the preview server:
 
 ```bash
-$ npm install && bower install
-$ grunt 
+npm install
+npm install mongoose --save-dev 
 ```
 
 ### Pages
@@ -24,7 +22,7 @@ $ grunt
 * /hello - prints 'hello world'
 * /musicians - root of REST API
  
-## Reference
+## This project uses these technologies
 * [Express API Reference](http://expressjs.com/4x/api.html)
 * [Mongoose.js API docs](http://mongoosejs.com/docs/api.html)
 * [Creating a REST API using Node.js, Express, and MongoDB](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
